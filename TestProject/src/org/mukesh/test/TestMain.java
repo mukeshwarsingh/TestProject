@@ -31,7 +31,8 @@ public class TestMain {
 
 	public static void main(String[] args) throws ClassNotFoundException {
 		
-		
+		System.out.println("Inside main method of TestMain class");
+				
 		String message = ApplicationResponseCode.STATUS_OK.getMessageKey();
 		System.out.println("Message: "+ message);
 		
